@@ -1,0 +1,64 @@
+.bannertext {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:rgb(255, 255, 255);
+    height: auto;
+    min-height: 120px;
+}
+
+@media (max-width: 767px) {
+    .bannertext {
+        font-size: 24px;
+    }
+@media (max-width: 1023px) and (min-width: 768px) {
+    }
+}
+.bannerTitle {
+    font-size: 4vw;;
+
+}
+@media screen and (min-width: 1024px) {
+.bannerTitle{
+margin-left:20px;
+padding:10px;
+   }
+}
+
+.bannerDesc {
+font-size: 2vw;
+
+}
+
+.span {
+margin-left: 20px;
+}
+
+.card-body {
+cursor: pointer;
+transition: box-shadow 0.3s;
+}
+
+.card-body:hover {
+background-color: rgb(249, 249, 249);
+border: 2px solid black;
+}
+
+
+.bIcon {
+width: 100%;
+test-align: center;
+font-size: 40px;
+}
+button {
+    background-color: #4d33c3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
